@@ -183,3 +183,14 @@ footer form div label {
 
   }
 }
+
+#heading1 {
+  padding-top: 50px;
+  padding-left: 50px;
+  color: #004080;
+}
+
+#description1{
+  padding-left: 50px;
+  line-height: 0.5;
+}
