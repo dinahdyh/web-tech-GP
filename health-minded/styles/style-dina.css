@@ -230,3 +230,16 @@ footer form div label {
   color: white;
   text-align: center;
 }
+
+#hamsterPic {
+  height: 10rem;
+  width: 10rem;
+}
+
+#descTher1 {
+  line-height: 0.5;
+  font-family: sans-serif;
+  position: absolute;
+  top:620px;
+  right:780px;
+}
