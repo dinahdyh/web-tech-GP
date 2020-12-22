@@ -102,7 +102,7 @@ img#background-pic {
 
 }
 main {
-  height: 230vh;
+  height: 190vh;
   width: auto;
 
 }
@@ -239,7 +239,8 @@ footer form div label {
 
 
 .therPic {
-  padding:10px;
+  padding-left: 30px;
+  padding-top: 15px;
   height: 10rem;
   width: 10rem;
 }
@@ -248,17 +249,10 @@ footer form div label {
   line-height: 0.5;
   font-family: sans-serif;
   position: absolute;
-  top:15%;
+  top:14%;
   left:27%;
 }
 
-ul{
-  list-style: none;
-}
-
-a{
-  text-decoration: none;
-}
 
 .container{
   width:100%;
@@ -271,53 +265,93 @@ a{
 
 
 #slider{
-  width: 740px;
+  width: 840px;
   height: 180px;
   background-color:white;
   border-radius: 10px;
-  box-shadow:2px 2px 2px 2px;
+  box-shadow:1px 1px 1px 1px;
 }
 
 .slide {
-  width: 740px;
+  width: 840px;
   height: 180px;
   background-color:white;
   border-radius: 10px;
-  box-shadow:2px 2px 2px 2px;
+  box-shadow:1px 1px 1px 1px;
   position: absolute;
   display:none;
 }
 
 .slide.active{
-  width: 740px;
+  width: 840px;
   height: 180px;
   background-color:white;
   border-radius: 10px;
-  box-shadow:2px 2px 2px 2px;
+  box-shadow:1px 1px 1px 1px;
   display: block;
 }
 
 
 #left-arrow{
+  border-radius: 50%;
   width: 30px;
   height: 30px;
   color:white;
   background-color:#004080;
   position:absolute;
   top:680px;
-  left:200px;
+  left:150px;
   font-size: 22px;
   cursor: pointer;
 }
 
 #right-arrow{
+  border-radius: 50%;
   width: 30px;
   height: 30px;
   color:white;
   background-color:#004080;
   position:absolute;
   top:680px;
-  right: 200px;
+  right:150px;
   font-size:22px;
-  cursor: pointer;
+  cursor:pointer;
+}
+
+#heading3 {
+  font-family: Arial;
+  padding-top: 130px;
+  padding-left: 50px;
+  color: #004080;
+}
+
+#descriptionReview {
+  font-family: Arial;
+  padding-left: 50px;
+  color: grey;
+  line-height: 0.5;
+}
+
+#box1 {
+  position: absolute;
+  left: 4%;
+  top: 85%;
+  padding: 10px;
+  width: 430px;
+  line-height: 0.5;
+  border: 1px solid gray;
+  margin: 0;
+  border-radius: 10px;
+}
+
+#box2 {
+  position: absolute;
+  left: 40%;
+  top: 85%;
+  padding: 10px;
+  width: 580px;
+  line-height: 0.5;
+  border: 1px solid gray;
+  margin: 0;
+  border-radius: 10px;
 }
