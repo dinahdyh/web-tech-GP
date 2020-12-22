@@ -66,8 +66,10 @@ img#background-pic {
 .background-title {
   font-size: 6em;
   z-index: 1;
-  color: antiquewhite;
+  color: white;
   width: fit-content;
+  font-family: Arial Black;
+
 }
 /*class put thing at the center of container, used in backgrnd pic*/
 .centered {
