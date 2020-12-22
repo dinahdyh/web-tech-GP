@@ -102,7 +102,7 @@ img#background-pic {
 
 }
 main {
-  height: 130vh;
+  height: 230vh;
   width: auto;
 
 }
@@ -197,7 +197,6 @@ footer form div label {
   background-color: #004080;
   margin-top: 50px;
   padding: 20px;
-
   line-height: 0.5;
 
 }
@@ -231,15 +230,94 @@ footer form div label {
   text-align: center;
 }
 
-#hamsterPic {
+#heading2 {
+  font-family: Arial;
+  color: #004080;
+    text-align: center;
+    padding-top: 60px;
+}
+
+
+.therPic {
+  padding:10px;
   height: 10rem;
   width: 10rem;
 }
 
-#descTher1 {
+.details {
   line-height: 0.5;
   font-family: sans-serif;
   position: absolute;
-  top:620px;
-  right:780px;
+  top:15%;
+  left:27%;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container{
+  width:100%;
+  height:27vh;
+  background-color: white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#slider{
+  width: 740px;
+  height: 180px;
+  background-color:white;
+  border-radius: 10px;
+  box-shadow:2px 2px 2px 2px;
+}
+
+.slide {
+  width: 740px;
+  height: 180px;
+  background-color:white;
+  border-radius: 10px;
+  box-shadow:2px 2px 2px 2px;
+  position: absolute;
+  display:none;
+}
+
+.slide.active{
+  width: 740px;
+  height: 180px;
+  background-color:white;
+  border-radius: 10px;
+  box-shadow:2px 2px 2px 2px;
+  display: block;
+}
+
+
+#left-arrow{
+  width: 30px;
+  height: 30px;
+  color:white;
+  background-color:#004080;
+  position:absolute;
+  top:680px;
+  left:200px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+#right-arrow{
+  width: 30px;
+  height: 30px;
+  color:white;
+  background-color:#004080;
+  position:absolute;
+  top:680px;
+  right: 200px;
+  font-size:22px;
+  cursor: pointer;
 }
