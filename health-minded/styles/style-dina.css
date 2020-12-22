@@ -181,6 +181,7 @@ footer form div label {
 }
 
 #heading1 {
+  font-family: Arial;
   padding-top: 30px;
   padding-left: 50px;
   color: #004080;
@@ -189,19 +190,43 @@ footer form div label {
 #description1 {
   padding-left: 50px;
   line-height: 0.5;
+  font-family: sans-serif;
 }
 
 .container2{
   background-color: #004080;
   margin-top: 50px;
-  padding: 110px;
+  padding: 20px;
+
   line-height: 0.5;
 
 }
 
 #containerMission {
-  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 400px;
+  padding-right: 440px;
+  font-family: Arial Black;
   font-size: 1rem;
   color: white;
+  text-align: center;
+}
 
+#containerVision {
+  position: absolute;
+  top:236px;
+  right: 520px;
+  font-family: Arial Black;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+
+#containerValues {
+  position: absolute;
+  top:236px;
+  right: 110px;
+  font-family: Arial Black;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
 }
