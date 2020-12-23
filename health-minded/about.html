@@ -163,25 +163,47 @@
 
 
 
-    <footer>
-        <form id="feedback-form" class="flex-container" action="" method="post">
+    <footer class="footer-container">
+      <form id="feedback-form" class="footer-left" action="#" method="post">
+        <div>
+          <div id="footer-text-input">
+            <div>
+              <label class="footer-word" for="form-name">Name :</label>
+              <input type="text" name="Name" id="form-name" />
+            </div>
 
             <div>
-                <label class="footer-word" for="form-name">Name :</label>
-                <input type="text" name="Name" id="form-name">
+              <label class="footer-word" for="form-email">Email :</label>
+              <input type="text" name="Name" id="form-email" />
+            </div>
+          </div>
 
-                <label class="footer-word" for="form-email">Email :</label>
-                <input type="text" name="Name" id="form-email">
-            </div>
-            <div>
-                <label class="footer-word" for="form-comment">Comment :</label>
-                <textarea id="comment-footer" name="comment" form="feedback-form" placeholder="Enter comment here"></textarea>
-            </div>
-            <div >
-                <a href="#" target="_blank">Privacy Term</a>
-                <button id="footer-btn" type="submit"><strong>Send a Feedback</strong></button>
-            </div>
-        </form>
+          <div id="footer-feedback-box">
+            <label class="footer-word" for="form-comment">Message :</label>
+            <textarea id="comment-footer" name="comment" form="feedback-form" placeholder="Enter message here"></textarea>
+          </div>
+        </div>
+
+        <div id="footer-bottom-row">
+          <a id="footer-privacy-link" href="privacy-policy-template.pdf" target="_blank">Privacy Term</a>
+          <button id="footer-btn" type="submit">
+            <strong>Send a Feedback</strong>
+          </button>
+        </div>
+      </form>
+
+      <div class="footer-right">
+        <div class="footer-icons">
+          <p class="footer-word">
+            <strong>Share this page</strong>
+          </p>
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-envelope"></i></a>
+          <a href="#"><i class="fa fa-youtube"></i></a>
+        </div>
+      </div>
     </footer>
 
 <!-- jquery -->
