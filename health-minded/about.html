@@ -184,8 +184,10 @@
         </form>
     </footer>
 
+<!-- jquery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
 </script>
+
     <script type ="text/javascript">
 
     $('#right-arrow').click(function() {
@@ -207,7 +209,7 @@
       currentSlide.fadeOut(300).removeClass('active');
       prevSlide.fadeIn(300).addClass('active');
 
-      if(nextSlide.length == 0) {
+      if(prevSlide.length == 0) {
         $('.slide').last().fadeIn(300).addClass('active');
       }
     });
